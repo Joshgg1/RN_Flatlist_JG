@@ -7,7 +7,7 @@ import {
 } from "react-native";
 import colors from "../styles/colors";
 import defaultStyles from "../styles/defaultStyles";
-
+// woo hoo! We have a flatlist!
 export default function Index() {
   return (
     <View style={defaultStyles.container}>
@@ -16,7 +16,7 @@ export default function Index() {
       </View>
       <View style={[defaultStyles.textContainer, { flex: 1 }]}>
         <View style={styles.flatlist}>
-          <Text>This is where our list will go</Text>
+          <Text>This is where our list will go, yay!</Text>
         </View>
       </View>
     </View>
